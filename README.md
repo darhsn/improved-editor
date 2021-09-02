@@ -19,3 +19,4 @@ mode, these are the main bindings
 
 ## Screenshots
 **TODO**: Add screenshots
+(screenshot)[./screenshot/ime-dev-1.png]
