@@ -12,7 +12,7 @@
 import ime
 
 # Create new ImeInstance
-editor = ime.ImeInstance(default_buf="Untitled", name="Ime User")
+editor = ime.ImeInstance(default_buf="Untitled", name="Ime Dev", debug_msg=False)
 
 # Startup editor
 editor.start()
