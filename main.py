@@ -11,8 +11,13 @@
 """
 import ime
 
-# Create new ImeInstance
-editor = ime.ImeInstance(default_buf="Untitled", name="Ime Dev", debug_msg=False)
+# keystroke_handler, handle all the keystrokes, is called every time user presses a key
+def keystroke_handler(key):
+    if key == ord('q'):
+        editor.quit()
 
-# Startup editor
+# create ime instance
+editor = ime.ImeInstance(keystroke_handler=lambda k: keystroke_handler(k))
+
+# start ime
 editor.start()
