@@ -1,4 +1,4 @@
-# IMproved-Editor
+# IMproved-Editor [ABANDONED PROJECT]
 IMproved-Editor or IME is a open-source ncurses terminal based text editor written in
 python, the main goals are:
  - Python configuration with a custom wrapper
